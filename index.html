@@ -15,9 +15,10 @@
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
 
+	
+	
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-
-
+<link rel="stylesheet" type="text/css" href="./css/navbar.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -26,12 +27,36 @@
     <![endif]-->
   </head>
   <body>
-    <h1 class="fw-100">Hello, world!</h1>
+  <div class="background-corp"></div>
+	<!-- Fixed navbar -->
+    
+	
+<ul class="topnav" id="myTopnav">
+  <li><a class="active" href="#home">Inicio</a></li>
+  <li><a href="#news">Portafolio</a></li>
+  <li><a href="#contact">Contacto</a></li>
+  <li><a href="#about">Acerca de nosotros</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
+    <!-- <h1 class="fw-900">Grupo Acera</h1> -->
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+	function myFunction() {
+	    var x = document.getElementById("myTopnav");
+	    if (x.className === "topnav") {
+	        x.className += " responsive";
+	    } else {
+	        x.className = "topnav";
+	    }
+	}
+</script>
   </body>
 </html>
