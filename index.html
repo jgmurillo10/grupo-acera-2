@@ -1,8 +1,13 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es" class="no-js">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Grupo Acera"/>
+	<meta name="keywords" content="ingenieria, civil, electrica, aeronautica, sistemas, redes, administracion, proyectos, finanzas"/>
+	<meta name="apple-mobile-web-app-title" content="Grupo Acera">
+	<meta name="application-name" content="Grupo Acera">
 
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
@@ -25,6 +30,14 @@
 
 
 	<title>Grupo Acera</title>
+	<script src="js/jquery-2.1.1.js"></script>
+	<script>
+	$(document).ready(function(){
+	        $("#logo").fadeIn(3000);
+	        $("#slogan").fadeIn(5000);
+	        // $("#div3").fadeIn(3000);
+	});
+	</script>
 </head>
 <body>
 
@@ -52,15 +65,27 @@
 		</nav> <!-- .cd-main-nav-wrapper -->
 		
 		<a href="#0" class="cd-nav-trigger">Grupo Acera<span></span></a>
+
 	</header>
 	
 	<main class="cd-main-content">
 		<!-- main content here -->
-		  <div class="background-corp hidden-xs"></div>
+		  
+			<div class="background-corp hidden-xs"></div>
   			<div class="background-corp-xs"></div>
+  			<!-- home image logo and slogan -->
+  			<br>
+  			<div class="container">
+  				<div id="logo" class="row" style="display:none">
+  					<img class="img-responsive col-md-offset-2 col-md-8" src="./img/full-logo-ed.png">
+  				</div>
+  				<div id="slogan" class="row" style="display:none">
+  					<h1 style="text-align: center;">Especialistas en Ingeniería Eléctrica, Mecánica y Civil</h2>
+  				</div>
+  			</div>
 	</main>
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
