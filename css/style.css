@@ -39,7 +39,7 @@ Background
       height: 100%;
       z-index: -1;
       background: url(./../img/fondo-corp-final.png) no-repeat 0 50%;
-      background-position: right;
+      background-position: right top;
       opacity: 0.5;
 }
 .background-corp{
@@ -86,7 +86,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #33414a;
+  background-color: #2263C1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Force Hardware Acceleration */
@@ -218,7 +218,7 @@ header::before {
   transform: translateY(6px);
 }
 .nav-is-visible .cd-nav-trigger span {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(26, 79, 140, 0);
 }
 .nav-is-visible .cd-nav-trigger span::before {
   -webkit-transform: translateY(0) rotate(-45deg);
@@ -284,6 +284,7 @@ header::before {
   -webkit-transition: visibility 0s 0s;
   -moz-transition: visibility 0s 0s;
   transition: visibility 0s 0s;
+  background-color: #2263C1 !important;
 }
 .cd-main-nav.moves-out > li > a {
   /* push the navigation items to the left - and lower down opacity - when secondary nav slides in */
