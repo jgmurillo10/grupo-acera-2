@@ -32,6 +32,10 @@ a {
 Background
 
 -------------------------------- */
+img{
+
+  margin: 10px 10px 10px 10px;
+}
 .background-corp-xs{
     content: "";
       position: absolute;
